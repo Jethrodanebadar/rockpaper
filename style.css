@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poetsen+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 135, 49);
+    height: 100vh;
+}
+
+.main-game{
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(59, 59, 59, 0.4);
+    font-family: "Playfair Display", serif;
+    background-color: rgb(238, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 2.5rem;
+}
+
+button{
+    background-color: rgb(236, 203, 16);
+    border-radius: 5px;
+    min-width: 30%;
+    min-height: 1.5rem;
+    font-size: 1rem;
+    color: rgb(240, 238, 236);
+    border-color: transparent;
+    box-shadow: 0px 2px 4px rgb(207, 203, 203, 0.4);
+}
+
+input{
+    border-radius: 5px;
+    min-height: 1.5rem;
+    text-align: center;
+    min-width: 70%;
+    border-color: transparent;
+    box-shadow: 0px 2px 4px rgb(207, 203, 203, 0.4);
+}
+
+button:hover{
+    background-color: rgb(48, 47, 46);
+}

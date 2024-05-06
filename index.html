@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-game">
+      <h1>Rock Paper Scissor Game!</h1>
+      <h3>Please select between:</h3>
+      <ol>
+        <li>Rock</li>
+        <li>Paper</li>
+        <li>Scissor</li>
+      </ol>
+      <input
+        type="text"
+        id="choiceInput"
+        placeholder="Enter your the number of your choice"
+      />
+      <button onclick="playRound()">Play</button>
+      <div id="round"></div>
+      <div id="score"></div>
+      <div id="result"></div>
+    </div>
+  </body>
+  <script src="game.js"></script>
+</html>
